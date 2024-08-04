@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/Room1.unity
+    guid: ebdef1b61bf37b54998d534de3fe7b5e
+  - enabled: 1
+    path: Assets/Scenes/SampleScene.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 0
+    path: Assets/VisionLib MRTK Examples/TrackingSetup/Scenes/HoloLens2ModelTrackingSetup.unity
+    guid: 7f6cf49d09f4bda46b9668c34148a9fd
+  - enabled: 0
+    path: Assets/VisionLib HoloLens Examples/ModelTracking/Scenes/HoloLensSimpleModelTracking.unity
+    guid: 1d439efef7139154b8c9903af60ee665
+  - enabled: 0
+    path: Assets/VisionLib HoloLens Examples/ModelTracking/Scenes/HoloLensAutoInitTracking.unity
+    guid: 987dc7b6db1e74a4cb57227992e3259f
+  - enabled: 0
+    path: Assets/Scenes/SceneWithHands.unity
+    guid: 1ce2469cc277fde4eaf4014ec659264c
+  m_configObjects:
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: ae1b16123e2423c4fb0677df7a5ce50d, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: c333082e826de7c40be45fa3bb5bb456, type: 2}

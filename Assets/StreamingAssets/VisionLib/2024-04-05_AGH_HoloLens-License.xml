@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<licenses>
+ <license expiredate="24.08.2024" name="Vision" version="2.00" zkey="kwADAgAUkrtttv3pUc+xFsBmHWE1188f15sAFQEETA7wpnB4bYH5bka4/bGOmx4y5g==">
+  <comment>Created by bockholt</comment>
+  <user>
+   <organization>AGH</organization>
+   <street>al. Adama Mickiewicza 30, 30-059 Kraków</street>
+   <city>Kraków</city>
+   <country>PL</country>
+   <contact>lukaszwajda@student.agh.edu.pl</contact>
+  </user>
+  <hosts>
+   <host id="LtHJskGEUArjW2POaXgyV15V2NY=" name="AR1Vid_pzq3xp76mxafg" type="bundleid"/>
+  </hosts>
+  <features>
+   <feature name="ANY"/>
+   <feature name="licenseType" value="academicSDK"/>
+   <feature name="feature:NumberOfStartsPerDeployment" value="0"/>
+   <feature name="feature:AllowInjectingImage"/>
+   <feature name="feature:AllowUnlimitedModels"/>
+   <feature name="feature:AllowUnregisteredModels"/>
+   <feature name="feature:AllowDeviceWindows"/>
+   <feature name="feature:AllowDeviceUWP"/>
+   <feature name="feature:AllowDeviceHoloLens"/>
+   <feature name="featureBundle:Basic"/>
+  </features>
+ </license>
+</licenses>
