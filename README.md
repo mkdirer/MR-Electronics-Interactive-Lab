@@ -1,4 +1,4 @@
-# XR-Electronics-Interactive-Lab
+# MR-Electronics-Interactive-Lab
 
 This Mixed Reality application, developed using **MRTK 2.8** and **VisionLib 3.0.1** on **Hololens 2**, is tailored for enhancing the learning experience in electronics. It enables users to explore and interact with virtual electronic circuits and equipment like power supplies, oscilloscopes, and function generators. Key features include:
 
