@@ -7,7 +7,6 @@ public class SetTrackingObject : MonoBehaviour
     [SerializeField]  public GameObject objectToTrack;
     [SerializeField]  public GameObject targetObject;
 
-    // Start is called before the first frame update
     void Start()
     {
         if (objectToTrack == null || targetObject == null)
@@ -17,15 +16,8 @@ public class SetTrackingObject : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     public void OnObjectTracked()
     {
-        // Get the location of the tracked object
         targetObject.transform.position = objectToTrack.transform.position;
         targetObject.transform.rotation = objectToTrack.transform.rotation;
         Invoke("SetPositionTracked", 0.3f);
@@ -34,7 +26,7 @@ public class SetTrackingObject : MonoBehaviour
     void SetPositionTracked()
     {
         Debug.Log("SetNewPositionForTrackingObject!");
-        //targetObject.transform.position = objectToTrack.transform.position;
+        targetObject.transform.position = objectToTrack.transform.position;
     }
 
 

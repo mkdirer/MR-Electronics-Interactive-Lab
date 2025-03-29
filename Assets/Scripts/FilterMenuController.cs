@@ -10,7 +10,7 @@ public class FilterMenuController : MonoBehaviour
     public class FilterInfo
     {
         public string title;
-        public string shortTitle; // New field
+        public string shortTitle;
         public Sprite filterImage;
         public Sprite schematicImage;
         public string description;
@@ -20,7 +20,7 @@ public class FilterMenuController : MonoBehaviour
     public GameObject filterInfoPanel;
 
     public TextMeshProUGUI titleText;
-    public TextMeshProUGUI shortTitleText; // New UI element reference
+    public TextMeshProUGUI shortTitleText;
     public Image filterImage;
     public Image schematicImage;
     public TextMeshProUGUI descriptionText;
@@ -29,16 +29,8 @@ public class FilterMenuController : MonoBehaviour
 
     void Start()
     {
-        // Initialize by showing the menu panel and hiding the info panel
-        //ShowMenuPanel();
         PopulateFilterInfos();
     }
-
-/*    public void ShowMenuPanel()
-    {
-        menuPanel.SetActive(true);
-        filterInfoPanel.SetActive(false);
-    }*/
 
     public void ShowFilterInfo(int filterIndex)
     {
@@ -47,7 +39,7 @@ public class FilterMenuController : MonoBehaviour
             FilterInfo info = filterInfos[filterIndex];
 
             titleText.text = info.title;
-            shortTitleText.text = info.shortTitle; // Display the short title
+            shortTitleText.text = info.shortTitle;
             filterImage.sprite = info.filterImage;
             schematicImage.sprite = info.schematicImage;
             descriptionText.text = info.description;

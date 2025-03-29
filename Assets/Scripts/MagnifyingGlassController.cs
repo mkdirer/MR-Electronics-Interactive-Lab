@@ -18,16 +18,14 @@ public class MagnifyingGlassController : MonoBehaviour
 
     void Update()
     {
-        /*if (magnifyCamera)
+        if (magnifyCamera)
         {
-            // Update the magnify camera position to match the main camera's view
             magnifyCamera.transform.position = Camera.main.transform.position;
             magnifyCamera.transform.rotation = Camera.main.transform.rotation;
-        }*/
+        }
 
-        // Calculate the magnifying center in screen coordinates
-        /*Vector3 screenPos = Camera.main.WorldToScreenPoint(transform.position);
+        Vector3 screenPos = Camera.main.WorldToScreenPoint(transform.position);
         Vector3 viewportPos = Camera.main.ScreenToViewportPoint(screenPos);
-        magnifyingGlassMaterial.SetVector("_MagnifyCenter", new Vector4(viewportPos.x, viewportPos.y, 0, 0));*/
+        magnifyingGlassMaterial.SetVector("_MagnifyCenter", new Vector4(viewportPos.x, viewportPos.y, 0, 0));
     }
 }
