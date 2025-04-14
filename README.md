@@ -23,4 +23,3 @@ Example screenshots:
 ![FullViewOfHandMenuForModules](https://github.com/user-attachments/assets/630c7b1f-04dc-4f0e-8070-11cb29e262bd)
 
 ![Hands_interaction](https://github.com/user-attachments/assets/afc70142-a7d7-4599-ada2-ed0c113d2084)
-
